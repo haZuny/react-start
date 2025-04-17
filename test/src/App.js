@@ -3,14 +3,11 @@ import './App.css';
 
 // import components
 import Hello from './component/hello'
-import Welcome from './component/welcome'
-import World from './component/world'
 
 function App() {
   return (
     <div className='App'>
-      <Hello/><World/>
-      <div><Welcome/></div>
+      <Hello age={20} name={'Hayden'}/>
     </div>
     
   );
